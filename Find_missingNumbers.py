@@ -12,3 +12,5 @@ def find_missing(a, b):
 	for item in b:
 		if item not in a:
 			return item
+
+print find_missing([1, 5, 11], [1, 5, 3, 11])
